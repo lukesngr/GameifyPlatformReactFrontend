@@ -7,7 +7,7 @@ export default function TaskToComplete(props) {
     return (
         <div>
             <input type="checkbox" onClick={completeTask}/>
-            <p>{props.taskName}</p>
+            <p>{props.task.taskName}</p>
         </div>
     )
 }

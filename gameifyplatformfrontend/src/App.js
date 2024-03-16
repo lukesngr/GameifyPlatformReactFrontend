@@ -1,13 +1,21 @@
+import Navbar from './components/Navbar';
+import SuperUserHome from './components/SuperUserHome';
 import UserHome from './components/UserHome';
 import logo from './logo.svg';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const queryClient = new QueryClient();
 
 function App() {
   return (
       <div className="App">
-        <UserHome />
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<UserHome />} />
+            <Route path="superuser" element={<SuperUserHome />} />
+          </Routes>
+        </BrowserRouter>
       </div>
   );
 }

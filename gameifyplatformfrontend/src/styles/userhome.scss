@@ -5,3 +5,17 @@
     justify-content: center;
     margin-top: 20px;
 }
+
+.task {
+    width: 20%;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.deleteCreatedTask {
+    float: right;
+}
+
+.createdTaskName {
+    float: left;
+}

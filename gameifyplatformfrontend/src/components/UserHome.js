@@ -8,10 +8,7 @@ export default function UserHome() {
     if (status ==="success") {
         return (<div>
             {data.tasks.map((task, index) => {
-                return <div key={index}>
-                    <h3>{task.taskName}</h3>
-                    <p>{task.rewardType}</p>
-                </div>
+                return <TaskToComplete key={index} task={task} />;
             })}
         </div>);
     }

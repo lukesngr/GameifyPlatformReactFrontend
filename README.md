@@ -1,2 +1,3 @@
 ﻿# gameifyplatformfrontend
-Some code I threw up for a hackathon in May
+Gameification of data platform for iAccelarate hackathon
+Made this up in 2 days for said hackathon

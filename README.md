@@ -1,3 +1,3 @@
 ﻿# gameifyplatformfrontend
-Gameification of data platform for iAccelarate hackathon
-Made this up in 2 days for said hackathon
+React Frontend of a platform attempting to gameify any form of data as per a topic we were assigned for a UOW iAccelarate hackathon
+

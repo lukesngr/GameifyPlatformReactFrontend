@@ -19,3 +19,35 @@
 .createdTaskName {
     float: left;
 }
+
+.checklistFields {
+    width: 20%;
+}
+
+.checklistFields input {
+    float: left;
+    width: 100%
+}
+
+.checklistFields label {
+    float: left;
+}
+
+.checklistFields select {
+    float: left;
+}
+
+.ultimateTaskDescription {
+    margin-bottom: 2px;
+}
+
+.addTaskButton {
+    float: left;
+    width: 50%;
+}
+
+.taskToComplete {
+    width: 20%;
+    border: 1px solid black;
+    padding: 2px;
+}
